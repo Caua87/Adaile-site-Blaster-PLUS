@@ -134,6 +134,15 @@ button:hover{
     color:#3428d9;
     margin-bottom:40px;
     font-size:36px;
+      
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
 }
 
 .cards{
