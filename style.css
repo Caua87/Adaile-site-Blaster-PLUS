@@ -129,6 +129,13 @@ button:hover{
     font-size:36px;
 }
 
+.login h2{
+    text-align:center;
+    color:#3428d9;
+    margin-bottom:40px;
+    font-size:36px;
+}
+
 .cards{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
