@@ -135,12 +135,14 @@ button:hover{
     margin-bottom:40px;
     font-size:36px;
 
-     text-decoration:none;
-    color:#444;
-    margin-left:25px;
-    font-weight:600;
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#2892d9;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
     transition:0.3s;
-    
 }
 
 .cards{
