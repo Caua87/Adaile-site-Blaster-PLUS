@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaile Eventos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            🎉 Adaile Eventos
+        </div>
+
+        <nav>
+         <a href="#">Início</a>
+         <a href="#">Eventos</a>
+         <a href="#">Avisos</a>
+         <a href="#">Calendário</a>
+         <a href="#">Contato</a>
+        </nav>
+
+        <!-- BOTÃO TEMA -->
+     <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">🌙</button>
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>Você nunca mais será pego de surpresa.</h1>
+
+            <p>
+                Festas, gincanas, passeios, mudanças no horário,
+                cancelamento de aulas e eventos escolares em um único lugar.
+            </p>
+
+            <button>Ver Próximos Eventos</button>
+        </div>
+
+        <div class="hero-card">
+            <h2>📢 Próximo Evento</h2>
+
+            <h3>🎭 Dia da Fantasia</h3>
+
+            <p>📅 18/08</p>
+            <p>⏰ às 07:30 11:50</p>
+            <z>❗ Falta 48 dias</z>
+
+            <span>Não esqueça sua fantasia!</span>
+        </div>
+
+    </section>
+
+    <section class="calendario-section" id="calendario">
+        <h2>📅 Calendário de Eventos</h2>
+        
+        <div class="calendario-container">
+            <div class="calendario-header">
+                <button id="mesAnterior">◀</button>
+                <h3 id="mesAnoAtual">Agosto 2026</h3>
+                <button id="mesProximo">▶</button>
+            </div>
+            
+            <div class="calendario-grid" id="calendarioGrid">
+                <!-- Dias da semana -->
+                <div class="dia-semana">Dom</div>
+                <div class="dia-semana">Seg</div>
+                <div class="dia-semana">Ter</div>
+                <div class="dia-semana">Qua</div>
+                <div class="dia-semana">Qui</div>
+                <div class="dia-semana">Sex</div>
+                <div class="dia-semana">Sáb</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal do Evento -->
+    <div class="modal" id="modalEvento">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">✕</button>
+            <div class="evento-imagem" id="modalImagem">🎭</div>
+            <h3 id="modalTitulo">Dia da Fantasia</h3>
+            <div class="evento-detalhes" id="modalDetalhes">
+                <p>📅 <strong>Data:</strong> 18/08/2026</p>
+                <p>⏰ <strong>Horário:</strong> 07:30 - 11:50</p>
+                <p>📍 <strong>Local:</strong> Pátio da Escola</p>
+                <p>📝 <strong>Descrição:</strong> Venha fantasiado e participe do concurso de fantasias!</p>
+                <p>👥 <strong>Público:</strong> Todos os alunos</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="eventos">
+
+        <h2>Próximos Eventos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icone">⚽</div>
+                <h3>Interclasse</h3>
+                <p>20/08</p>
+                <p>10:20 às 12:30</p>
+            </div>
+
+            <div class="card">
+                <div class="icone">🌽</div>
+                <h3>Festa Junina</h3>
+                <p>15/06</p>
+                <p>18:00 às 22:00</p>
+            </div>
+
+            <div class="card">
+                <div class="icone">🏆</div>
+                <h3>Gincadaile</h3>
+                <p>12/09</p>
+                <p>08:00 às 12:00</p>
+            </div>
+
+            <div class="card">
+                <div class="icone">🚌</div>
+                <h3>Passeio Escolar</h3>
+                <p>22/09</p>
+                <p>Saída às 07:00</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="vantagens">
+
+        <h2>Por que utilizar o Adaile Eventos?</h2>
+
+        <div class="vantagens-grid">
+
+            <div class="vantagem">
+                🔔 Notificações antecipadas
+            </div>
+
+            <div class="vantagem">
+                📅 Calendário escolar organizado
+            </div>
+
+            <div class="vantagem">
+                📶 Funciona sem internet
+            </div>
+
+            <div class="vantagem">
+                🎉 Todos os eventos em um só lugar
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <h3>ME™</h3>
+
+        <p>
+            Você não precisa ficar de fora disso.
+        </p>
+
+        <p>© 2026</p>
+
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
